@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# Modify History : rofl0r => Biri_B@B@ => Mohammad_Alamin (Toxinum)
 # VERSION 1.0.1
 # Open Source Code.No Need More Modification.
 import sys, subprocess, os, tempfile, shutil, re, codecs, socket, pathlib, time, collections, statistics, collections, csv, http.client, marshal
@@ -996,7 +997,7 @@ class WiFiScanner:
   \ \ /\ / /| | |_  | |_____| |_| | / _ \| |   | ' /  
    \ V  V / | |  _| | |_____|  _  |/ ___ \ |___| . \  
     \_/\_/  |_|_|   |_|     |_| |_/_/   \_\____|_|\_\ 
-
+                                                  
         networks = self.iw_scanner()
         if not networks:
             ani('[\033[1;31m-\033[1;37m] No WPS networks found!')
